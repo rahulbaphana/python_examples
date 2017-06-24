@@ -1,3 +1,3 @@
-class Operations(object):
+class Operations:
     def add(self, a, b):
         return a + b

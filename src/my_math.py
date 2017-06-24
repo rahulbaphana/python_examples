@@ -2,7 +2,7 @@ class Operations:
     def add(self, a, b):
         return a + b
 
-    def sum(self, numbers):
+    def iterative_sum(self, numbers):
         sum = 0
         for e in numbers:
             sum = self.add(sum, e)

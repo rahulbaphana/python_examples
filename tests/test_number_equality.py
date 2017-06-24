@@ -5,7 +5,7 @@ class CheckNumbers(unittest.TestCase):
         self.assertEqual(1, 1.0)
 
     def test_str_float(self):
-        self.assertEqual(1, "1")    
+        self.assertEqual(str(1), "1")    
 
 if __name__ == "__main__":
     unittest.main()

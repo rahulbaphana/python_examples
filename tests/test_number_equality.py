@@ -4,11 +4,12 @@ from my_math import Operations
 
 
 class CheckNumbers(unittest.TestCase):
-    def should_test_int_float(self):
-        self.assertEqual(1, 1.0)
-
-    def should_test_str_float(self):
-        self.assertEqual(str(1), "1")
-
+    
     def should_test_add_two_parameters(self):
         self.assertEqual(Operations().add(1,2), 3)
+
+    def should_test_sum_of_numbers_list(self):
+        self.assertEqual(Operations().iterative_sum([1,3,7]), 11)   
+
+    def should_test_sum_of_numbers_list_tail_rec(self):     
+        self.assertEqual(Operations().tail_rec_sum([1,3,7]), 11)    

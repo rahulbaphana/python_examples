@@ -1,6 +1,6 @@
 import unittest
 
-from my_math import Operations as Operations
+from example.my_math import Operations as Operations
 
 class TestCheckNumbers(unittest.TestCase):
     

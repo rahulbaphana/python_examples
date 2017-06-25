@@ -3,3 +3,6 @@
 .idea
 .vscode
 *.pyc
+*.cache
+.eggs
+UNKNOWN.egg-info

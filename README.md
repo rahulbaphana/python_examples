@@ -26,6 +26,11 @@ $ nosetests -v
 $ nosetests --no-byte-compile  -s -v
 ```
 
+### if using **py.test** for running tests
+```
+$ python3 setup.py test
+```
+
 ## Installing **Python 3** on [Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-ubuntu-16-04)
 
 ## Install **nose** on [Ubuntu](https://nose.readthedocs.io/en/latest/)

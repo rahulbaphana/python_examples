@@ -1,11 +1,10 @@
 import unittest
 
-from my_math import Operations
+from my_math import Operations as Operations
 
-
-class CheckNumbers(unittest.TestCase):
+class TestCheckNumbers(unittest.TestCase):
     
-    def should_test_add_two_parameters(self):
+    def test_add_two_parameters(self):
         self.assertEqual(Operations().add(1,2), 3)
 
     def should_test_sum_of_numbers_list(self):

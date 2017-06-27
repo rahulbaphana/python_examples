@@ -1,5 +1,5 @@
-from cart.shopping_cart import Cart
-from cart.product import Product
+from src.cart.shopping_cart import Cart
+from src.cart.product import Product
 
 class TestShoppingCart:
     def test_empty_shopping_cart(self):

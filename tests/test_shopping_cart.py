@@ -3,10 +3,27 @@ from src.cart.product import Product
 
 class TestShoppingCart:
     def test_empty_shopping_cart(self):
+        # Given().When() == Then(Condition)
         assert Cart().display_all_items() == []
 
     def test_product_added_to_cart(self):
+        #  Given
         cart = Cart();
         dove = Product("Dove", 30)
+
+        # When
         cart.add(dove)
-        assert cart.display_all_items()  == [dove]    
+
+        #Then
+        assert cart.display_all_items()  == [dove]
+
+    def test_product_added_to_cart_with_quantity(self):
+        # Given
+        cart = Cart();
+        dove = Product("Dove", 30)
+
+        # When
+        cart.add(dove, 3)
+
+        #Then
+        assert cart.get_total_price() == 90    

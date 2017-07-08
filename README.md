@@ -58,4 +58,6 @@ $ python3 setup.py test
 
 ### Installing **Python 3** on [Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-ubuntu-16-04)
 
+### Installing **py.test** on [Ubuntu 16.0.04](https://docs.pytest.org/en/latest/getting-started.html)
+
 ### Install **nose** on [Ubuntu](https://nose.readthedocs.io/en/latest/)

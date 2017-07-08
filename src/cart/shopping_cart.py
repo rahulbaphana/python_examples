@@ -1,9 +1,6 @@
 class Cart:
     products = []
 
-    def display_all_items(self):
-        return self.products
-
     def get_total_price(self):
         add = lambda a,b : a + b
         sum = 0

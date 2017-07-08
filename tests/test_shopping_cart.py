@@ -4,7 +4,7 @@ from src.cart.product import Product
 class TestShoppingCart:
     def test_empty_shopping_cart(self):
         # Given().When() == Then(Condition)
-        assert Cart().display_all_items() == []
+        assert Cart().get_total_price() == 0
 
     def test_product_added_to_cart(self):
         #  Given
@@ -15,7 +15,7 @@ class TestShoppingCart:
         cart.add(dove)
 
         #Then
-        assert cart.display_all_items()  == [dove]
+        assert cart.get_total_price()  == 30
 
     def test_product_added_to_cart_with_quantity(self):
         # Given

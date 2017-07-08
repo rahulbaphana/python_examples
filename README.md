@@ -23,9 +23,40 @@
 > python3 setup.py test
 ```
 
+## **Mac Installation**
+
+### Install **Python 3** latest
+```
+$ brew install python3
+```
+
+### Verify **Python 3** installation
+```
+$ python3 -V
+```
+
+### Install **[nose](https://nose.readthedocs.io/en/latest/)**
+```
+$ easy_install nose==1.3.7
+```
+
+### Running tests on this repo in verbose mode
+```
+$ nosetests -v
+```
+### Below command will **not** create the **.pyc** files and also capture any console output
+```
+$ nosetests --no-byte-compile  -s -v
+```
+
+### if using **py.test** for running tests
+```
+$ python3 setup.py test
+```
+
 ### Output after running the tests
 ```
-➜  python_examples git:(master) python3 setup.py test
+$ python_examples git:(master) python3 setup.py test
 running pytest
 Searching for pytest
 Best match: pytest 3.1.2
@@ -56,37 +87,6 @@ tests/test_shopping_cart.py::TestShoppingCart::test_product_added_to_cart PASSED
 tests/test_shopping_cart.py::TestShoppingCart::test_product_added_to_cart_with_quantity PASSED
 
 ============================================ 4 passed in 0.02 seconds =============================================
-```
-
-## **Mac Installation**
-
-### Install **Python 3** latest
-```
-$ brew install python3
-```
-
-### Verify **Python 3** installation
-```
-$ python3 -V
-```
-
-### Install **[nose](https://nose.readthedocs.io/en/latest/)**
-```
-$ easy_install nose==1.3.7
-```
-
-### Running tests on this repo in verbose mode
-```
-$ nosetests -v
-```
-### Below command will **not** create the **.pyc** files and also capture any console output
-```
-$ nosetests --no-byte-compile  -s -v
-```
-
-### if using **py.test** for running tests
-```
-$ python3 setup.py test
 ```
 
 ## **Ubuntu 16.04 Installation**

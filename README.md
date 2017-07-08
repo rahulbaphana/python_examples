@@ -23,6 +23,41 @@
 > python3 setup.py test
 ```
 
+### Output after running the tests
+```
+➜  python_examples git:(master) python3 setup.py test
+running pytest
+Searching for pytest
+Best match: pytest 3.1.2
+Processing pytest-3.1.2-py3.6.egg
+
+Using ~/python_prac/python_examples/.eggs/pytest-3.1.2-py3.6.egg
+Searching for py>=1.4.33
+Best match: py 1.4.34
+Processing py-1.4.34-py3.6.egg
+
+Using ~/python_prac/python_examples/.eggs/py-1.4.34-py3.6.egg
+running egg_info
+writing UNKNOWN.egg-info/PKG-INFO
+writing dependency_links to UNKNOWN.egg-info/dependency_links.txt
+writing top-level names to UNKNOWN.egg-info/top_level.txt
+reading manifest file 'UNKNOWN.egg-info/SOURCES.txt'
+writing manifest file 'UNKNOWN.egg-info/SOURCES.txt'
+running build_ext
+=============================================== test session starts ===============================================
+platform darwin -- Python 3.6.1, pytest-3.1.2, py-1.4.34, pluggy-0.4.0 -- /usr/local/opt/python3/bin/python3.6
+cachedir: .cache
+rootdir: ~/python_prac/python_examples, inifile: setup.cfg
+collected 4 items
+
+tests/test_number_equality.py::TestCheckNumbers::test_add_two_parameters PASSED
+tests/test_shopping_cart.py::TestShoppingCart::test_empty_shopping_cart PASSED
+tests/test_shopping_cart.py::TestShoppingCart::test_product_added_to_cart PASSED
+tests/test_shopping_cart.py::TestShoppingCart::test_product_added_to_cart_with_quantity PASSED
+
+============================================ 4 passed in 0.02 seconds =============================================
+```
+
 ## **Mac Installation**
 
 ### Install **Python 3** latest

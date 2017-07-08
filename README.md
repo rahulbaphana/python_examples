@@ -1,6 +1,29 @@
 # Python examples using TDD
 
-## Mac Installation
+## **Windows 7 Installation**
+
+### Download **Python 3** [latest](https://www.python.org/downloads/) and run the executable
+
+### Add it to the **PATH**
+
+### Verify **Python 3** installation from power shell or git bash or command line tool installed
+```
+> python3 -V
+```
+
+### Install [pip](https://pip.pypa.io/en/stable/installing/) and add it to **PATH**
+
+### Install **py.test** 
+```
+> pip install -U pytest
+```
+
+### Run all tests
+```
+> python3 setup.py test
+```
+
+## **Mac Installation**
 
 ### Install **Python 3** latest
 ```
@@ -31,6 +54,8 @@ $ nosetests --no-byte-compile  -s -v
 $ python3 setup.py test
 ```
 
-## Installing **Python 3** on [Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-ubuntu-16-04)
+## **Ubuntu 16.04 Installation**
 
-## Install **nose** on [Ubuntu](https://nose.readthedocs.io/en/latest/)
+### Installing **Python 3** on [Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-ubuntu-16-04)
+
+### Install **nose** on [Ubuntu](https://nose.readthedocs.io/en/latest/)
